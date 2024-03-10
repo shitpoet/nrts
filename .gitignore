@@ -1,0 +1,11 @@
+asmjit
+dev
+*.out
+*.cfg
+*.pch
+*.so
+*.txt
+*.text
+*/*.md
+_*
+*_
