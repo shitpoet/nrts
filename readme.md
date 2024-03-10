@@ -9,7 +9,7 @@ The project doesn't have any AI, it just drops pieces at random. But there's an 
 ## Compilation
 
 ```bash
-clang++ --std=c++20 -O2 -ffast-math -fno-math-errno -funroll-loops -march=native -fno-exceptions -Wall -Wno-unused-variable -Wno-unused-function  main.cc
+clang++ --std=c++20 -O2 -ffast-math -fno-math-errno -funroll-loops -march=native -fno-exceptions -Wall -Wno-unused-variable -Wno-unused-function main.cc
 ```
 
 ## Some details
