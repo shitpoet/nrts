@@ -2,7 +2,7 @@
 
 `nrts` is a fast no-rotate tetris simulator using bit-packing and bit-operations.
 
-`nrts` can do around 20+ million drops per second. Where a drop is placing a piece considering all its possible places + considering all possible drops of a next piece.
+`nrts` can do around 20+ million drops per second (single thread). Where a drop is placing a piece considering all its possible places + considering all possible drops of a next piece.
 
 The project doesn't have any AI, it just drops pieces at random. But there's an extension point (callback) for an user-provided evaluation function.
 
@@ -29,4 +29,5 @@ I tried to write branch-less code, but nevertheless the code have some loops and
 * and some other loops and branches
 
 The code doesn't explicitly use SIMD instructions, so there can be a significant room for low-level improvements in that area.
+
 
